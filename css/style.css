@@ -1,0 +1,582 @@
+html body {
+    background-color: #ededed;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.baggrundslogo {
+    width: 100%;
+    position: absolute;
+    margin-top: -219px;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+/* Header start  */
+
+header {
+    background-color: #e3e3e3;
+    padding: 47px 0;
+}
+
+.logo {
+    position: absolute;
+    width: 15%;
+    margin-left: 30px;
+    top: 0;
+}
+
+button {
+    background-color: #4a687c;
+    border: none;
+    color: #ededed;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    cursor: pointer;
+    margin-bottom: -40px;
+    margin-top: -30px;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:active {
+    background: #db851c;
+}
+
+button:focus {
+    background: #db851c;
+}
+
+.menu {
+    margin-left: 560px;
+}
+
+.sprog {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #4a687c;
+}
+
+#dk {
+    color: #db851c;
+}
+
+.line {
+    border-left: 6px solid #4a687c;
+    height: 60px;
+    float: right;
+    margin-right: -85px;
+    margin-top: -40px
+}
+
+/* Header slut  */
+
+/* Søgebar start  */
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 40px;
+    border: 3px solid grey;
+    float: left;
+    width: 235%;
+    background: #fff;
+    margin-top: 100px;
+    margin-left: -213px
+}
+
+form.example button {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    background: #db851c;
+    color: white;
+    font-size: 43px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: -82px;
+    margin-left: 418px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#searchbar {
+    float: left;
+    width: 5%;
+    padding: 15px;
+    background: #e3e3e3;
+    color: #db851c;
+    font-size: 60px;
+    border-left: none;
+    cursor: pointer;
+    margin-top: -62px;
+    margin-left: 1500px;
+}
+
+/* Søgebar slut  */
+
+
+/* Indholdsforside start  */
+
+
+.forsideindhold {
+  display: grid;
+  grid-template-areas:
+    'header header header';
+  grid-gap: 200px;
+  padding: 20px;
+    margin-top: 150px;
+        margin-left: 50px;
+        position: absolute;
+
+}
+.forsideindhold > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+    height: 500px;
+    width: 500px;
+    font-family: 'roboto', sans-serif;
+        box-shadow: 10px 10px #c8c8c8;
+font-size: 32px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #4a687c;
+}
+
+/* Indholdsforside slut  */
+
+
+
+/* Icons-forside start  */
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 830px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.icons img {
+    width: 300px;
+    height: 230px;
+}
+
+h2 {
+    color: #4a687c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Icons-forside slut  */
+
+/* Temaer start  */
+
+.temaerne {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    background-color: transparent;
+    margin-left: 60px;
+}
+
+.grid-item {
+    background-color: #4a687c;
+    margin: 70px;
+    padding: 40px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 150px;
+    width: 355px;
+    box-shadow: 10px 10px #c8c8c8;
+    color: #e3e3e3;
+    text-decoration: none;
+}
+
+/* Temaer start  */
+
+/* Searchsite Start  */
+
+.grid-item1 {
+    grid-area: kategori;
+}
+
+.grid-item2 {
+    grid-area: bog1;
+}
+
+.grid-item3 {
+    grid-area: bog2;
+}
+
+.grid-item4 {
+    grid-area: bog3;
+}
+
+.grid-item5 {
+    grid-area: bog4;
+}
+
+.books {
+    display: grid;
+    grid-template-areas: 'bog1' 'bog2' 'bog3' 'bog4';
+    grid-gap: 60px;
+    padding: 10px;
+    margin-left: 700px;
+    margin-right: 100px;
+    margin-top: 130px;
+}
+
+.books > div {
+    background-color: #e3e3e3;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    height: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bogbillede {
+    position: relative;
+    width: 15%;
+    margin-left: -900px;
+    padding: 10px;
+}
+
+.bogtekst {
+    margin-top: -320px;
+    margin-left: 320px;
+    width: 50%;
+    text-align: left;
+}
+
+.laesmere {
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 350px;
+    box-shadow: 5px 10px darkgrey;
+}
+
+.bestil {
+    background-color: #db851c;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 350px;
+    min-width: 216px;
+    box-shadow: 5px 10px darkgrey;
+}
+
+.sidebar {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 12px;
+    width: 531px
+}
+
+/* Searchsite Slut  */
+
+/* Slideshow container */
+
+.slideshow-container {
+
+    position: relative;
+    margin-top: 340px;
+
+
+}
+
+.imgslide {
+    width: 100%;
+}
+
+.ti {
+    width: 100%;
+
+
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #4a687c;
+    font-weight: bold;
+    font-size: 100px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bookshelf {
+    position: absolute;
+    width: 87%;
+    margin-top: 903px;
+    margin-left: 110px
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* */
+
+/* LOG IND POPUP START*/
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+.button1 {
+    background-color: #4a687c;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 735px;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    margin-left: 395px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+/* Center the image and position the close button */
+
+.container {
+    padding: 16px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    height: 200px;
+    margin-top: 15px;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 120%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #ededed;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+    height: 29%;
+}
+
+/* The Close Button (x) */
+
+.close2 {
+    position: absolute;
+    right: 525px;
+    top: 145px;
+    color: #000;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.logindbesked {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #db851c;
+    text-align: center;
+}
+
+/* LOG IND POPUP SLUT */
+
+.minsideimg {
+    width: 93%;
+    margin-left: 4%;
+}
+
+.popup-overlay {
+    /*Hides pop-up when there is no "active" class*/
+    visibility: hidden;
+    position: absolute;
+    background: #4a687c;
+    width: 23%;
+    height: 25%;
+    left: 1040px;
+    font-size: 35px;
+    font-family: 'roboto', sans-serif;
+    color: white;
+        border-radius: 30px;
+
+}
+
+.popup-overlay.active {
+    /*displays pop-up when "active" class is present*/
+    visibility: visible;
+    text-align: center;
+    margin-top: -360px;
+}
+
+.popup-content {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+}
+
+.popup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility: visible;
+}
+
+.close {
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 3rem;
+    color: white;
+    background: #db851c;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+
+.popup-overlay1 {
+    /*Hides pop-up when there is no "active" class*/
+    visibility: hidden;
+    position: absolute;
+    background: #4a687c;
+    width: 23%;
+    height: 25%;
+    margin-top: -300px;
+    left: 1540px;
+    font-size: 35px;
+    font-family: 'roboto', sans-serif;
+    color: white;
+        border-radius: 30px;
+
+}
+
+.popup-overlay1.active {
+    /*displays pop-up when "active" class is present*/
+    visibility: visible;
+    text-align: center;
+    margin-top: -360px;
+}
+
+.popup-content1 {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+}
+
+.popup-content1.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility: visible;
+}
+
+.close1 {
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 3rem;
+    color: white;
+    background: #db851c;
+    margin-right: 30px;
+    margin-top: -15px;
+}
+
+#bogside {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 100px;
+    
+}
